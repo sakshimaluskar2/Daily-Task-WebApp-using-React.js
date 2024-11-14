@@ -1,16 +1,16 @@
 How It Works:
 
-User Interaction:
+1) User Interaction:
 User enters a title and description for a task.
 When the "ADD" button is clicked, SubmitHandler adds the new task to the tasks array.
 
-Task Persistence:
+2) Task Persistence:
 useEffect stores the tasks in local storage, so the list remains even after refreshing the page.
 
-Displaying Tasks:
+3) Displaying Tasks:
 The tasks array is mapped, and each task is rendered using the Task component.
 
-Deleting a Task:
+4) Deleting a Task:
 Each task has a delete button. When clicked, deleteTask removes the task from the array and updates local storage.
 This app effectively manages a list of daily goals with persistence, allowing users to add, view, and delete tasks in a simple and organized way.
 
